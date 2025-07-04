@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+   
+</head>
+<body class="outerBody"> 
+    <div >
+        
+            <input type="text"id="inputArea" readonly>
+            </div>
+            <div class="buttonContainer">
+            <button class="button"id="C"onclick="answer='';
+             document.querySelector('#inputArea').value=answer" >C</button>
+             <button class="button"id="one"
+             onclick="answer=answer+'1';
+             document.querySelector('#inputArea').value=answer";
+             >1</button>
+            <button class="button" id="two" onclick="answer=answer+'2';
+             document.querySelector('#inputArea').value=answer";>2</button>
+            <button class="button"id="plus" onclick="answer=answer+'+';
+             document.querySelector('#inputArea').value=answer";>+</button>
+            <button class="button"id="three" onclick="answer=answer+'3';
+             document.querySelector('#inputArea').value=answer";>3</button>
+             <button class="button" id="four" onclick="answer=answer+'4';
+             document.querySelector('#inputArea').value=answer";>4</button>
+            <button class="button"id="minus" onclick="answer=answer+'-';
+             document.querySelector('#inputArea').value=answer";>-</button>
+            <button class="button" id="five" onclick="answer=answer+'5';
+             document.querySelector('#inputArea').value=answer";>5</button>
+            <button class="button" id="six" onclick="answer=answer+'6';
+             document.querySelector('#inputArea').value=answer";>6</button>
+            <button class="button"id="multiply"onclick="answer=answer+'*';
+             document.querySelector('#inputArea').value=answer">*</button>
+            <button class="button"id="seven" onclick="answer=answer+'7';
+             document.querySelector('#inputArea').value=answer";>7</button>
+            <button class="button"id="eight" onclick="answer=answer+'8';
+             document.querySelector('#inputArea').value=answer";>8</button>
+             <button class="button"id="divide" onclick="answer=answer+'/';
+             document.querySelector('#inputArea').value=answer";>/</button>
+             <button class="button"id="equal"onclick="answer=eval(answer);
+             document.querySelector('#inputArea').value=answer">=</button>
+             <button class="button"id="nine" onclick="answer=answer+'9';
+             document.querySelector('#inputArea').value=answer";>9</button>
+            <button class="button"id="zero" onclick="answer=answer+'0';
+             document.querySelector('#inputArea').value=answer";>0</button>
+            <button class="button"id="point" onclick="answer=answer+'.';
+             document.querySelector('#inputArea').value=answer";>.</button>
+
+            
+        
+    </div>
+    <script>
+        let answer='';
+        document.querySelector('#inputArea').value=answer;
+
+    </script>
+    
+    
+</body>
+</html>
