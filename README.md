@@ -1,2 +1,2 @@
 # Calculator
-this is  a basic calculator
+this is  a basic calculator designed by karan
